@@ -5,7 +5,7 @@ This project serves coders looking for a high-contrast, pastel, pink/blue theme.
 
 ![RUSTLINGS_CODE](/images/rust_sylv.png)
 
-_:cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer experience_
+_*:cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer experience :cherry_blossom:*_
 
 ## 📦 Installation
 
