@@ -18,7 +18,7 @@ packer.nvim
 vim-plug
 `Plug AmberLehmann/candyland.nvim'`
 
-## Usage
+## 🚀 Usage
 
 `colorscheme candyland`
 `vim.cmd.colorscheme "candyland"`
