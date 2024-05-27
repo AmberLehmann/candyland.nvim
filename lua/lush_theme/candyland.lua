@@ -145,7 +145,7 @@ local theme = lush(function(injected_functions)
     sym"@method.call"                          { Function }, -- @method.call   xxx links to Function
     luaMetaMethod                              { Function }, -- luaMetaMethod  xxx links to Function
     luaFunction                                { Function }, -- luaFunction    xxx links to Function
-    Identifier                                 { fg="#df78d8", }, -- Identifier     xxx guifg=#bb9af7
+    Identifier                                 { fg="#f2e1d1", }, -- Identifier     xxx guifg=#bb9af7
     sym"@lsp.type.interface"                   { Identifier }, -- @lsp.type.interface xxx links to Identifier
     NvimIdentifier                             { Identifier }, -- NvimIdentifier xxx links to Identifier
     sym"@symbol"                               { Identifier }, -- @symbol        xxx links to Identifier

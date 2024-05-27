@@ -569,7 +569,7 @@ highlight HopNextKey1 guifg=#0db9d7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight HopNextKey2 guifg=#164a5b guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight HopPreview guifg=#c7ba7d guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight HopUnmatched guifg=#545c7e guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Identifier guifg=#df78d8 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight Identifier guifg=#f2e1d1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NvimIdentifier Identifier
 highlight! link luaFunc Identifier
 highlight! link @lsp.type.interface Identifier
