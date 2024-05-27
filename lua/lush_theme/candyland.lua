@@ -323,7 +323,7 @@ local theme = lush(function(injected_functions)
     sym"@text.emphasis"                        { Italic }, -- @text.emphasis xxx links to Italic
     markdownItalic                             { Italic }, -- markdownItalic xxx links to Italic
     sym"@punctuation.bracket"                  { fg="#ffbfe8", gui="bold", }, -- @punctuation.bracket xxx cterm=bold gui=bold guifg=#ffbfe8
-    sym"@variable.builtin"                     { fg="#df78d8", gui="bold", }, -- @variable.builtin xxx cterm=bold gui=bold guifg=#df78d8
+    sym"@variable.builtin"                     { fg="#df71e6", gui="bold", }, -- @variable.builtin xxx cterm=bold gui=bold guifg=#df78d8
     sym"@lsp.typemod.variable.defaultLibrary"  { sym"@variable.builtin" }, -- @lsp.typemod.variable.defaultLibrary xxx links to @variable.builtin
     sym"@text.strike"                          { gui="strikethrough", }, -- @text.strike   xxx cterm=strikethrough gui=strikethrough
     sym"@tag.delimiter"                        { fg="#737aa2", }, -- @tag.delimiter xxx guifg=#737aa2

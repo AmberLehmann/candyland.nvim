@@ -1123,7 +1123,7 @@ packerSuccess = {fg = "#9ece6a"},
 ["@tag.delimiter"] = {fg = "#737aa2"},
 ["@text.literal.markdown_inline"] = {fg = "#7aa2f7", bg = "#414868"},
 ["@text.strike"] = {strikethrough = true},
-["@variable.builtin"] = {fg = "#df78d8", bold = true},
+["@variable.builtin"] = {fg = "#df71e6", bold = true},
 ["@lsp.typemod.variable.defaultLibrary"] = {link = "@variable.builtin"},
 -- PATCH_CLOSE
 -- content here will not be touched

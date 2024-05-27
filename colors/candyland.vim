@@ -1099,7 +1099,7 @@ highlight @punctuation.special.markdown guifg=#ff9e64 guibg=NONE guisp=NONE blen
 highlight @tag.delimiter guifg=#737aa2 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight @text.literal.markdown_inline guifg=#7aa2f7 guibg=#414868 guisp=NONE blend=NONE gui=NONE
 highlight @text.strike guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=strikethrough
-highlight @variable.builtin guifg=#df78d8 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight @variable.builtin guifg=#df71c6 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @lsp.typemod.variable.defaultLibrary @variable.builtin
 set background=dark
 let g:colors_name="candyland"
