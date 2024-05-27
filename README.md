@@ -5,7 +5,7 @@ This project serves coders looking for a high-contrast, pastel, pink/blue theme.
 
 ![RUSTLINGS_CODE](/images/rust_sylv.png)
 
-## :cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer experience
+_:cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer experience_
 
 ## 📦 Installation
 
@@ -21,4 +21,5 @@ vim-plug
 ## 🚀 Usage
 
 `colorscheme candyland`
+
 `vim.cmd.colorscheme "candyland"`
