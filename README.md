@@ -1,11 +1,11 @@
 # :candy: Candyland Colorscheme for Neovim
 
+After spending 20 hours looking for a cute Neovim colorscheme, I decided to make my own.
+This project serves coders looking for a high-contrast, pastel, pink/blue theme.
+
 ![RUSTLINGS_CODE](/images/rust_sylv.png)
 
 ## :cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer experience
-
-After spending 20 hours looking for a cute Neovim colorscheme, I decided to make my own.
-This project serves coders looking for a high-contrast, pastel, pink/blue theme.
 
 ## 📦 Installation
 
@@ -17,3 +17,8 @@ packer.nvim
 
 vim-plug
 `Plug AmberLehmann/candyland.nvim'`
+
+## Usage
+
+`colorscheme candyland`
+`vim.cmd.colorscheme "candyland"`
