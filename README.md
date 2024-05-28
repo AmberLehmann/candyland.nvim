@@ -16,12 +16,15 @@ _*:cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer exp
 ## 📦 Installation
 
 [lazy.nvim](https://github.com/folke/lazy.nvim) 
+
 `{'AmberLehmann/candyland.nvim', priority = 1000,}`
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim) 
+
 `use 'AmberLehmann/candyland.nvim'`
 
 [vim-plug](https://github.com/junegunn/vim-plug)
+
 `Plug AmberLehmann/candyland.nvim'`
 
 ## 🚀 Usage
