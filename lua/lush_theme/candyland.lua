@@ -95,7 +95,7 @@ local theme = lush(function(injected_functions)
     WinBarNC                                   { WinBar }, -- WinBarNC       xxx links to WinBar
     Cursor                                     { fg="#1a1b26", bg="#c0caf5", }, -- Cursor         xxx guifg=#1a1b26 guibg=#c0caf5
     lCursor                                    { fg="#1a1b26", bg="#c0caf5", }, -- lCursor        xxx guifg=#1a1b26 guibg=#c0caf5
-    Normal                                     { fg="#c0caf5", bg="#df78d8"}, -- Normal         xxx guifg=#c0caf5
+    Normal                                     { fg="#c0caf5", bg="#251A34"}, -- Normal         xxx guifg=#c0caf5
     NvimSpacing                                { Normal }, -- NvimSpacing    xxx links to Normal
     NvimTreePopup                              { Normal }, -- NvimTreePopup  xxx links to Normal
     Substitute                                 { fg="#000000", bg="#f7768e", }, -- Substitute     xxx guifg=#000000 guibg=#f7768e

@@ -22,7 +22,7 @@ require('lush')(require('lush_theme.candyland'))
 local colors = {
 -- content here will not be touched
 -- PATCH_OPEN
-Normal = {fg = "#c0caf5", bg = "#df78d8"},
+Normal = {fg = "#c0caf5", bg = "#251a34"},
 NvimSpacing = {link = "Normal"},
 NvimTreePopup = {link = "Normal"},
 Bold = {bold = true},
