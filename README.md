@@ -1,11 +1,11 @@
-# :candy: Candyland Colorscheme for Neovim
+# :candy:Candyland Colorscheme for Neovim
 
 After spending 20 hours looking for a cute Neovim colorscheme, I decided to make my own.
 This project delivers coders a high-contrast, pastel, pink/blue option.
 
 ![RUSTLINGS_CODE](/images/rust_sylv.png)
 
-_*:cherry_blossom: A vibrant pink/blue colorscheme for a saccarine developer experience :cherry_blossom:*_
+_*:cherry_blossom: A vibrant pink/blue colorscheme for a saccharine developer experience :cherry_blossom:*_
 
 ## ⚡️Features
 
