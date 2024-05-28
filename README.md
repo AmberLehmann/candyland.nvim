@@ -15,25 +15,35 @@ _*:cherry_blossom: A vibrant pink/blue colorscheme for a saccharine developer ex
 
 ## 📦 Installation
 
-[lazy.nvim](https://github.com/folke/lazy.nvim) 
+* [lazy.nvim](https://github.com/folke/lazy.nvim) 
 
-```{'AmberLehmann/candyland.nvim', priority = 1000,}```
+```
+{'AmberLehmann/candyland.nvim', priority = 1000,}
+```
 
-[packer.nvim](https://github.com/wbthomason/packer.nvim) 
+* [packer.nvim](https://github.com/wbthomason/packer.nvim) 
 
-```use 'AmberLehmann/candyland.nvim'```
+```
+use 'AmberLehmann/candyland.nvim'
+```
 
-[vim-plug](https://github.com/junegunn/vim-plug)
+* [vim-plug](https://github.com/junegunn/vim-plug)
 
-```Plug AmberLehmann/candyland.nvim'```
+```
+Plug AmberLehmann/candyland.nvim'
+```
 
 ## 🚀 Usage
 
-```:colorscheme candyland```
+```vim
+colorscheme candyland
+```
 
 **or**
 
-```vim.cmd.colorscheme "candyland"```
+```lua
+vim.cmd.colorscheme "candyland"
+```
 
 ## :cat: Contribute
 
