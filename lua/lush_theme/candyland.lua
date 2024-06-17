@@ -305,6 +305,7 @@ local theme = lush(function(injected_functions)
     sym"@field"                                { fg="#85dff8", gui="bold", }, -- @field         xxx cterm=bold gui=bold guifg=#85dff8
     sym"@property"                             { fg="#85dff8", gui="bold", }, -- @property      xxx cterm=bold gui=bold guifg=#85dff8
     sym"@lsp.type.property"                    { sym"@property" }, -- @lsp.type.property xxx links to @property
+    sym"@variable.member"                      { sym"@property" },
     MatchParen                                 { fg="#ff9e64", gui="bold", }, -- MatchParen     xxx cterm=bold gui=bold guifg=#ff9e64
     Ignore                                     { fg="bg", }, -- Ignore         xxx ctermfg=0 guifg=bg
     NvimInternalError                          { fg="red", bg="red", }, -- NvimInternalError xxx ctermfg=9 ctermbg=9 guifg=Red guibg=Red
