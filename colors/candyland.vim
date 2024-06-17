@@ -1095,6 +1095,7 @@ highlight! link @lsp.type.parameter @parameter
 highlight! link @variable.parameter @parameter
 highlight @property guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @lsp.type.property @property
+highlight! link @variable.property @property
 highlight @punctuation.bracket guifg=#ffbfe8 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @punctuation.special.markdown guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @tag.delimiter guifg=#737aa2 guibg=NONE guisp=NONE blend=NONE gui=NONE
