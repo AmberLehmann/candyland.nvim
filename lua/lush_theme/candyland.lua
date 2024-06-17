@@ -301,6 +301,7 @@ local theme = lush(function(injected_functions)
     sym"@text.underline"                       { Underlined }, -- @text.underline xxx links to Underlined
     sym"@parameter"                            { fg="#ff8994", gui="bold", }, -- @parameter     xxx cterm=bold gui=bold guifg=#ff8994
     sym"@lsp.type.parameter"                   { sym"@parameter" }, -- @lsp.type.parameter xxx links to @parameter
+    sym"@variable.parameter"                   { sym"@parameter" },
     sym"@field"                                { fg="#85dff8", gui="bold", }, -- @field         xxx cterm=bold gui=bold guifg=#85dff8
     sym"@property"                             { fg="#85dff8", gui="bold", }, -- @property      xxx cterm=bold gui=bold guifg=#85dff8
     sym"@lsp.type.property"                    { sym"@property" }, -- @lsp.type.property xxx links to @property

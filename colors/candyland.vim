@@ -1092,6 +1092,7 @@ highlight @field guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @number guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @parameter guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @lsp.type.parameter @parameter
+highlight! link @variable.parameter @parameter
 highlight @property guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @lsp.type.property @property
 highlight @punctuation.bracket guifg=#ffbfe8 guibg=NONE guisp=NONE blend=NONE gui=bold
