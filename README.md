@@ -1,4 +1,4 @@
-:candy:Candyland Colorscheme for Neovim
+## :candy: Candyland Colorscheme for Neovim
 
 After spending 20 hours looking for a cute Neovim colorscheme, I decided to make my own using Lush.
 This project delivers coders a high-contrast, pastel, pink/blue option.
