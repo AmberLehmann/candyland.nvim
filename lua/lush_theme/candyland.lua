@@ -22,9 +22,9 @@ local theme = lush(function(injected_functions)
     Search                                     { fg="#c0caf5", bg="#3d59a1", }, -- Search         xxx guifg=#c0caf5 guibg=#3d59a1
     MoreMsg                                    { fg="#7aa2f7", }, -- MoreMsg        xxx guifg=#7aa2f7
     ModeMsg                                    { fg="#a9b1d6", gui="bold", }, -- ModeMsg        xxx cterm=bold gui=bold guifg=#a9b1d6
-    LineNr                                     { fg="#3b4261", }, -- LineNr         xxx guifg=#3b4261
-    LineNrAbove                                { LineNr }, -- LineNrAbove    xxx links to LineNr
-    LineNrBelow                                { LineNr }, -- LineNrBelow    xxx links to LineNr
+    LineNr                                     { fg="#777788", }, -- LineNr         xxx guifg=#3b4261
+    LineNrAbove                                { fg="B1E3FF" }, -- LineNrAbove    xxx links to LineNr
+    LineNrBelow                                { fg="FBC0DF" }, -- LineNrBelow    xxx links to LineNr
     NvimTreeLineNr                             { LineNr }, -- NvimTreeLineNr xxx links to LineNr
     CursorLineNr                               { fg="#737aa2", }, -- CursorLineNr   xxx guifg=#737aa2
     NvimTreeCursorLineNr                       { CursorLineNr }, -- NvimTreeCursorLineNr xxx links to CursorLineNr
@@ -113,29 +113,29 @@ local theme = lush(function(injected_functions)
     sym"@text.todo"                            { Todo }, -- @text.todo     xxx links to Todo
     sym"@text.warning"                         { Todo }, -- @text.warning  xxx links to Todo
     luaTodo                                    { Todo }, -- luaTodo        xxx links to Todo
-    String                                     { fg="#ffcfe8", gui="bold", }, -- String         xxx cterm=bold gui=bold guifg=#ffcfe8
+    String                                     { fg="#ffcfe8", }, -- String         xxx cterm=bold gui=bold guifg=#ffcfe8
     sym"@text.literal"                         { String }, -- @text.literal  xxx links to String
     sym"@string"                               { String }, -- @string        xxx links to String
     NvimString                                 { String }, -- NvimString     xxx links to String
     sym"@string.regex"                         { String }, -- @string.regex  xxx links to String
     luaString2                                 { String }, -- luaString2     xxx links to String
     luaString                                  { String }, -- luaString      xxx links to String
-    Constant                                   { fg="#ff8994", gui="bold", }, -- Constant       xxx cterm=bold gui=bold guifg=#ff8994
+    Constant                                   { fg="#ff8994", }, -- Constant       xxx cterm=bold gui=bold guifg=#ff8994
     sym"@text.reference"                       { Constant }, -- @text.reference xxx links to Constant
     sym"@constant"                             { Constant }, -- @constant      xxx links to Constant
     sym"@lsp.type.enumMember"                  { Constant }, -- @lsp.type.enumMember xxx links to Constant
     luaConstant                                { Constant }, -- luaConstant    xxx links to Constant
     Character                                  { Constant }, -- Character      xxx guifg=#9ece6a
     sym"@character"                            { Character }, -- @character     xxx links to Character
-    Number                                     { fg="#ff8994", gui="bold", }, -- Number         xxx cterm=bold gui=bold guifg=#ff8994
+    Number                                     { fg="#ff8994", }, -- Number         xxx cterm=bold gui=bold guifg=#ff8994
     sym"@number"                               { fg="#ff8994", gui="bold", }, -- @number        xxx links to Number
     NvimNumber                                 { fg="#ff8994", gui="bold", }, -- NvimNumber     xxx links to Number
     luaNumber                                  { fg="#ff8994", gui="bold", }, -- luaNumber      xxx links to Number
-    Boolean                                    { fg="#ff8994", gui="bold", }, -- Boolean        xxx cterm=bold gui=bold guifg=#ff8994
+    Boolean                                    { fg="#ff8994", }, -- Boolean        xxx cterm=bold gui=bold guifg=#ff8994
     sym"@boolean"                              { fg="#ff8994", gui="bold", }, -- @boolean       xxx links to Boolean
     Float                                      { Constant }, -- Float          xxx guifg=#ff9e64
     sym"@float"                                { Float }, -- @float         xxx links to Float
-    Function                                   { fg="#6ea2f7", gui="bold", }, -- Function       xxx cterm=bold gui=bold guifg=#6ea2f7
+    Function                                   { fg="#6ea2f7", }, -- Function       xxx cterm=bold gui=bold guifg=#6ea2f7
     sym"@function"                             { Function }, -- @function      xxx links to Function
     sym"@method"                               { Function }, -- @method        xxx links to Function
     sym"@lsp.type.decorator"                   { Function }, -- @lsp.type.decorator xxx links to Function
@@ -151,13 +151,13 @@ local theme = lush(function(injected_functions)
     sym"@symbol"                               { Identifier }, -- @symbol        xxx links to Identifier
     sym"@tag.attribute"                        { Identifier }, -- @tag.attribute xxx links to Identifier
     luaFunc                                    { Identifier }, -- luaFunc        xxx links to Identifier
-    Conditional                                { fg="#ff9aef", gui="bold", }, -- Conditional    xxx cterm=bold gui=bold guifg=#ff9aef
+    Conditional                                { fg="#ff9aef", }, -- Conditional    xxx cterm=bold gui=bold guifg=#ff9aef
     sym"@conditional"                          { Conditional }, -- @conditional   xxx links to Conditional
     luaCondElse                                { Conditional }, -- luaCondElse    xxx links to Conditional
     luaCond                                    { Conditional }, -- luaCond        xxx links to Conditional
     Statement                                  { Conditional, }, -- Statement      xxx guifg=#bb9af7
     luaStatement                               { Statement }, -- luaStatement   xxx links to Statement
-    Repeat                                     { fg="#ff9aef", gui="bold", }, -- Repeat         xxx cterm=bold gui=bold guifg=#ff9aef
+    Repeat                                     { fg="#ff9aef", }, -- Repeat         xxx cterm=bold gui=bold guifg=#ff9aef
     sym"@repeat"                               { Repeat }, -- @repeat        xxx links to Repeat
     luaRepeat                                  { Repeat }, -- luaRepeat      xxx links to Repeat
     luaFor                                     { Repeat }, -- luaFor         xxx links to Repeat
@@ -169,7 +169,7 @@ local theme = lush(function(injected_functions)
     NvimAssignment                             { Operator }, -- NvimAssignment xxx links to Operator
     NvimOperator                               { Operator }, -- NvimOperator   xxx links to Operator
     luaOperator                                { Operator }, -- luaOperator    xxx links to Operator
-    Keyword                                    { fg="#ff9aef", gui="bold", }, -- Keyword        xxx cterm=bold gui=bold guifg=#ff9aef
+    Keyword                                    { fg="#ff9aef", }, -- Keyword        xxx cterm=bold gui=bold guifg=#ff9aef
     sym"@keyword"                              { Keyword }, -- @keyword       xxx links to Keyword
     sym"@keyword.function"                     { Keyword }, -- @keyword.function xxx links to Keyword
     sym"@keyword.operator"                     { Keyword }, -- @keyword.operator xxx links to Keyword
@@ -188,7 +188,7 @@ local theme = lush(function(injected_functions)
     Define                                     { Include }, -- Define         xxx guifg=#9d7cd8
     sym"@constant.macro"                       { Define }, -- @constant.macro xxx links to Define
     sym"@define"                               { Define }, -- @define        xxx links to Define
-    Macro                                      { fg="#df71e6", gui="bold", }, -- Macro          xxx cterm=bold gui=bold guifg=#df71e6
+    Macro                                      { fg="#df71e6", }, -- Macro          xxx cterm=bold gui=bold guifg=#df71e6
     sym"@macro"                                { Macro }, -- @macro         xxx links to Macro
     sym"@function.macro"                       { Macro }, -- @function.macro xxx links to Macro
     sym"@lsp.type.macro"                       { Macro }, -- @lsp.type.macro xxx links to Macro
@@ -196,7 +196,7 @@ local theme = lush(function(injected_functions)
     PreCondit                                  { Macro, }, -- PreCondit      xxx guifg=#9d7cd8
     StorageClass                               { Macro, }, -- StorageClass   xxx guifg=#2ac3de
     sym"@storageclass"                         { StorageClass }, -- @storageclass  xxx links to StorageClass
-    Type                                       { fg="#85dff8", gui="bold", }, -- Type           xxx cterm=bold gui=bold guifg=#85dff8
+    Type                                       { fg="#85dff8", }, -- Type           xxx cterm=bold gui=bold guifg=#85dff8
     sym"@type"                                 { Type }, -- @type          xxx links to Type
     sym"@lsp.type.enum"                        { Type }, -- @lsp.type.enum xxx links to Type
     sym"@lsp.type.type"                        { Type }, -- @lsp.type.type xxx links to Type
@@ -218,20 +218,20 @@ local theme = lush(function(injected_functions)
     markdownFootnoteDefinition                 { Typedef }, -- markdownFootnoteDefinition xxx links to Typedef
     Tag                                        { Type, }, -- Tag            xxx guifg=#7aa2f7
     sym"@tag"                                  { Tag }, -- @tag           xxx links to Tag
-    Special                                    { fg="#85dff8", gui="bold", }, -- Special        xxx cterm=bold gui=bold guifg=#85dff8
+    Special                                    { fg="#85dff8", }, -- Special        xxx cterm=bold gui=bold guifg=#85dff8
     sym"@constant.builtin"                     { Special }, -- @constant.builtin xxx links to Special
     sym"@function.builtin"                     { Special }, -- @function.builtin xxx links to Special
     sym"@constructor"                          { Special }, -- @constructor   xxx links to Special
     sym"@text.math"                            { Special }, -- @text.math     xxx links to Special
     markdownEscape                             { Special }, -- markdownEscape xxx links to Special
-    SpecialChar                                { fg="#ff8994", gui="bold", }, -- SpecialChar    xxx cterm=bold gui=bold guifg=#ff8994
+    SpecialChar                                { fg="#ff8994", }, -- SpecialChar    xxx cterm=bold gui=bold guifg=#ff8994
     sym"@string.escape"                        { SpecialChar }, -- @string.escape xxx links to SpecialChar
     sym"@string.special"                       { SpecialChar }, -- @string.special xxx links to SpecialChar
     sym"@character.special"                    { SpecialChar }, -- @character.special xxx links to SpecialChar
     NvimRegister                               { SpecialChar }, -- NvimRegister   xxx links to SpecialChar
     NvimStringSpecial                          { SpecialChar }, -- NvimStringSpecial xxx links to SpecialChar
     luaSpecial                                 { SpecialChar }, -- luaSpecial     xxx links to SpecialChar
-    Delimiter                                  { fg="#ffbfe7", gui="bold", }, -- Delimiter      xxx cterm=bold gui=bold guifg=#ffbfe7
+    Delimiter                                  { fg="#ffbfe7", gui="bold" }, -- Delimiter      xxx cterm=bold gui=bold guifg=#ffbfe7
     sym"@punctuation"                          { Delimiter }, -- @punctuation   xxx links to Delimiter
     NvimParenthesis                            { Delimiter }, -- NvimParenthesis xxx links to Delimiter
     NvimColon                                  { Delimiter }, -- NvimColon      xxx links to Delimiter
@@ -299,11 +299,11 @@ local theme = lush(function(injected_functions)
     Underlined                                 { gui="underline", }, -- Underlined     xxx cterm=underline gui=underline
     sym"@text.uri"                             { Underlined }, -- @text.uri      xxx links to Underlined
     sym"@text.underline"                       { Underlined }, -- @text.underline xxx links to Underlined
-    sym"@parameter"                            { fg="#ff8994", gui="bold", }, -- @parameter     xxx cterm=bold gui=bold guifg=#ff8994
+    sym"@parameter"                            { fg="#ff8994", }, -- @parameter     xxx cterm=bold gui=bold guifg=#ff8994
     sym"@lsp.type.parameter"                   { sym"@parameter" }, -- @lsp.type.parameter xxx links to @parameter
     sym"@variable.parameter"                   { sym"@parameter" },
-    sym"@field"                                { fg="#85dff8", gui="bold", }, -- @field         xxx cterm=bold gui=bold guifg=#85dff8
-    sym"@property"                             { fg="#85dff8", gui="bold", }, -- @property      xxx cterm=bold gui=bold guifg=#85dff8
+    sym"@field"                                { fg="#85dff8", }, -- @field         xxx cterm=bold gui=bold guifg=#85dff8
+    sym"@property"                             { fg="#85dff8", }, -- @property      xxx cterm=bold gui=bold guifg=#85dff8
     sym"@lsp.type.property"                    { sym"@property" }, -- @lsp.type.property xxx links to @property
     sym"@variable.member.python"               { sym"@property" },
     MatchParen                                 { fg="#ff9e64", gui="bold", }, -- MatchParen     xxx cterm=bold gui=bold guifg=#ff9e64
@@ -316,7 +316,7 @@ local theme = lush(function(injected_functions)
     CursorIM                                   { fg="#1a1b26", bg="#c0caf5", }, -- CursorIM       xxx guifg=#1a1b26 guibg=#c0caf5
     VisualNOS                                  { bg="#2d59a1", }, -- VisualNOS      xxx guibg=#2d59a1
     SignColumnSB                               { fg="#3b4261", bg="#16161e", }, -- SignColumnSB   xxx guifg=#3b4261 guibg=#16161e
-    Variable                                   { fg="#f2e1d1", gui="bold", }, -- Variable       xxx cterm=bold gui=bold guifg=#f2e1d1
+    Variable                                   { fg="#f2e1d1", }, -- Variable       xxx cterm=bold gui=bold guifg=#f2e1d1
     sym"@variable"                             { Variable }, -- @variable      xxx links to Variable
     Bold                                       { gui="bold", }, -- Bold           xxx cterm=bold gui=bold
     sym"@text.strong"                          { Bold }, -- @text.strong   xxx links to Bold
@@ -325,7 +325,7 @@ local theme = lush(function(injected_functions)
     sym"@text.emphasis"                        { Italic }, -- @text.emphasis xxx links to Italic
     markdownItalic                             { Italic }, -- markdownItalic xxx links to Italic
     sym"@punctuation.bracket"                  { fg="#ffbfe8", gui="bold", }, -- @punctuation.bracket xxx cterm=bold gui=bold guifg=#ffbfe8
-    sym"@variable.builtin"                     { fg="#df71e6", gui="bold", }, -- @variable.builtin xxx cterm=bold gui=bold guifg=#df78d8
+    sym"@variable.builtin"                     { fg="#df71e6", }, -- @variable.builtin xxx cterm=bold gui=bold guifg=#df78d8
     sym"@lsp.typemod.variable.defaultLibrary"  { sym"@variable.builtin" }, -- @lsp.typemod.variable.defaultLibrary xxx links to @variable.builtin
     sym"@text.strike"                          { gui="strikethrough", }, -- @text.strike   xxx cterm=strikethrough gui=strikethrough
     sym"@tag.delimiter"                        { fg="#737aa2", }, -- @tag.delimiter xxx guifg=#737aa2
