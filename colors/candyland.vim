@@ -6,7 +6,7 @@ highlight! link markdownBold Bold
 highlight! link @text.strong Bold
 highlight BookmarkAnnotationSign guifg=#e0af68 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BookmarkSign guifg=#536c9e guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Boolean guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Boolean guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BufferCurrent guifg=#c0caf5 guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
 highlight BufferCurrentIndex guifg=#0db9d7 guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
 highlight BufferCurrentMod guifg=#e0af68 guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
@@ -167,13 +167,13 @@ highlight! link luaComment Comment
 highlight! link @comment Comment
 highlight! link @lsp.type.comment Comment
 highlight Conceal guifg=#737aa2 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Conditional guifg=#ff9aef guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Conditional guifg=#ff9aef guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Label Conditional
 highlight! link Statement Conditional
 highlight! link luaCond Conditional
 highlight! link luaCondElse Conditional
 highlight! link @conditional Conditional
-highlight Constant guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Constant guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Character Constant
 highlight! link Exception Constant
 highlight! link Float Constant
@@ -512,7 +512,7 @@ highlight FloatShadowThrough guifg=NONE guibg=black guisp=NONE blend=100 gui=NON
 highlight FoldColumn guifg=#565f89 guibg=#1a1b26 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLineFold FoldColumn
 highlight Folded guifg=#7aa2f7 guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
-highlight Function guifg=#6ea2f7 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Function guifg=#6ea2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Debug Function
 highlight! link luaFunction Function
 highlight! link luaMetaMethod Function
@@ -596,7 +596,7 @@ highlight IndentBlanklineSpaceCharBlankline guifg=#3b4261 guibg=NONE guisp=NONE 
 highlight Italic guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight! link markdownItalic Italic
 highlight! link @text.emphasis Italic
-highlight Keyword guifg=#ff9aef guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Keyword guifg=#ff9aef guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @keyword Keyword
 highlight! link @keyword.function Keyword
 highlight! link @keyword.operator Keyword
@@ -604,9 +604,9 @@ highlight! link @keyword.return Keyword
 highlight! link @lsp.type.keyword Keyword
 highlight! link luaLabel Label
 highlight! link @label Label
-highlight LineNr guifg=#3b4261 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight! link LineNrAbove LineNr
-highlight! link LineNrBelow LineNr
+highlight LineNr guifg=#777788 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight LineNrAbove guifg=#b1e3ff guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight LineNrBelow guifg=#fbc0df guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NvimTreeLineNr LineNr
 highlight LirDir guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight LirFloatNormal guifg=#a9b1d6 guibg=#16161e guisp=NONE blend=NONE gui=NONE
@@ -621,7 +621,7 @@ highlight LspInfoTitle guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceRead guifg=NONE guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceText guifg=NONE guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
-highlight Macro guifg=#df71e6 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Macro guifg=#df71e6 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link PreCondit Macro
 highlight! link StorageClass Macro
 highlight! link @function.macro Macro
@@ -690,7 +690,7 @@ highlight NullLsInfoBorder guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NullLsInfoHeader guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NullLsInfoSources guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NullLsInfoTitle guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Number guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Number guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NvimInternalError guifg=red guibg=red guisp=NONE blend=NONE gui=NONE
 highlight! link NvimFigureBrace NvimInternalError
 highlight! link NvimInvalidSingleQuotedUnknownEscape NvimInternalError
@@ -751,7 +751,7 @@ highlight RedrawDebugClear guifg=NONE guibg=yellow guisp=NONE blend=NONE gui=NON
 highlight RedrawDebugComposed guifg=NONE guibg=green guisp=NONE blend=NONE gui=NONE
 highlight RedrawDebugNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=reverse
 highlight RedrawDebugRecompose guifg=NONE guibg=red guisp=NONE blend=NONE gui=NONE
-highlight Repeat guifg=#ff9aef guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Repeat guifg=#ff9aef guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link luaFor Repeat
 highlight! link luaRepeat Repeat
 highlight! link @repeat Repeat
@@ -763,13 +763,13 @@ highlight Search guifg=#c0caf5 guibg=#3d59a1 guisp=NONE blend=NONE gui=NONE
 highlight SignColumn guifg=#3b4261 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLineSign SignColumn
 highlight SignColumnSB guifg=#3b4261 guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight Special guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Special guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link markdownEscape Special
 highlight! link @constant.builtin Special
 highlight! link @constructor Special
 highlight! link @function.builtin Special
 highlight! link @text.math Special
-highlight SpecialChar guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight SpecialChar guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NvimRegister SpecialChar
 highlight! link NvimStringSpecial SpecialChar
 highlight! link luaSpecial SpecialChar
@@ -788,7 +788,7 @@ highlight! link NvimTreeStatusLine StatusLine
 highlight StatusLineNC guifg=#3b4261 guibg=#16161e guisp=NONE blend=NONE gui=NONE
 highlight! link NvimTreeStatusLineNC StatusLineNC
 highlight! link @storageclass StorageClass
-highlight String guifg=#ffcfe8 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight String guifg=#ffcfe8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NvimString String
 highlight! link luaString String
 highlight! link luaString2 String
@@ -851,7 +851,7 @@ highlight! link @type.definition Typedef
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight! link @text.underline Underlined
 highlight! link @text.uri Underlined
-highlight Variable guifg=#f2e1d1 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Variable guifg=#f2e1d1 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @variable Variable
 highlight VertSplit guifg=#000000 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Visual guifg=NONE guibg=#2d59a1 guisp=NONE blend=NONE gui=NONE
@@ -1088,12 +1088,12 @@ highlight packerStatusSuccess guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui
 highlight packerString guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight packerSuccess guifg=#9ece6a guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight @boolean guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
-highlight @field guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight @field guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight @number guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
-highlight @parameter guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight @parameter guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @lsp.type.parameter @parameter
 highlight! link @variable.parameter @parameter
-highlight @property guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight @property guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @lsp.type.property @property
 highlight! link @variable.member @property
 highlight @punctuation.bracket guifg=#ffbfe8 guibg=NONE guisp=NONE blend=NONE gui=bold
