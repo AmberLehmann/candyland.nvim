@@ -22,7 +22,7 @@ require('lush')(require('lush_theme.candyland'))
 local colors = {
 -- content here will not be touched
 -- PATCH_OPEN
-Normal = {fg = "#c0caf5", bg = "#251a34"},
+-- Normal = {fg = "#c0caf5", bg = "#251a34"},
 NvimSpacing = {link = "Normal"},
 NvimTreePopup = {link = "Normal"},
 Bold = {bold = true},
@@ -1135,7 +1135,7 @@ packerSuccess = {fg = "#9ece6a"},
 -- colorschemes generally want to do this
 vim.cmd("highlight clear")
 vim.cmd("set t_Co=256")
-vim.cmd("let g:colors_name='my_theme'")
+vim.cmd("let g:colors_name='candyland'")
 
 -- apply highlight groups
 for group, attrs in pairs(colors) do
