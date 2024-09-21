@@ -1,4 +1,3 @@
-" highlight Normal guifg=#c0caf5 guibg=#251a34 guisp=NONE blend=NONE gui=NONE
 highlight! link NvimSpacing Normal
 highlight! link NvimTreePopup Normal
 highlight Bold guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
