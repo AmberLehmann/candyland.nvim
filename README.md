@@ -30,7 +30,7 @@ use 'AmberLehmann/candyland.nvim'
 * [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```
-Plug AmberLehmann/candyland.nvim'
+Plug 'AmberLehmann/candyland.nvim'
 ```
 
 ## 🚀 Usage
