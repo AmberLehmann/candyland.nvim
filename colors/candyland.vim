@@ -1089,7 +1089,7 @@ highlight packerSuccess guifg=#9ece6a guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight @boolean guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @field guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight @number guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=bold
-highlight @parameter guifg=#ff8994 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight @parameter guifg=#ff8994 guibg=none guisp=none blend=none gui=NONE
 highlight! link @lsp.type.parameter @parameter
 highlight! link @variable.parameter @parameter
 highlight @property guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -1104,5 +1104,6 @@ highlight @variable.builtin guifg=#df71c6 guibg=NONE guisp=NONE blend=NONE gui=b
 highlight! link @lsp.typemod.variable.defaultLibrary @variable.builtin
 highlight @lsp.typemod.pol.math.typst guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @lsp.typemod.pol.math.typst @Special
+highlight @markup.math.typst guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 set background=dark
 let g:colors_name="candyland"
