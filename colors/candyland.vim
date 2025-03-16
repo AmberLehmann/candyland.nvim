@@ -1105,5 +1105,6 @@ highlight! link @lsp.typemod.variable.defaultLibrary @variable.builtin
 highlight @lsp.typemod.pol.math.typst guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @lsp.typemod.pol.math.typst @Special
 highlight @markup.math.typst guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight! link @constant.typst Keyword
 set background=dark
 let g:colors_name="candyland"
