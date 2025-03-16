@@ -1102,5 +1102,7 @@ highlight @text.literal.markdown_inline guifg=#7aa2f7 guibg=#414868 guisp=NONE b
 highlight @text.strike guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=strikethrough
 highlight @variable.builtin guifg=#df71c6 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link @lsp.typemod.variable.defaultLibrary @variable.builtin
+highlight @lsp.typemod.pol.math.typst guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight! link @lsp.typemod.pol.math.typst @special 
 set background=dark
 let g:colors_name="candyland"

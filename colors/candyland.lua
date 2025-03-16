@@ -1,6 +1,6 @@
 vim.opt.background = 'dark'
 vim.g.colors_name = 'candyland'
-package.loaded['lush_theme.candyland'] = nil
+-- package.loaded['lush_theme.candyland'] = nil
 
 -- require('lush')(require('lush_theme.candyland'))
 
@@ -771,6 +771,7 @@ CursorLineSign = {link = "SignColumn"},
 SignColumnSB = {fg = "#3b4261", bg = "#16161e"},
 Special = {fg = "#85dff8", bold = false},
 ["@markup.math.typst"] = {fg = "#85dff8", bold = false, priority = 101},
+["@lsp.typemod.pol.math.typst"] = {link = "Special"},
 markdownEscape = {link = "Special"},
 ["@constant.builtin"] = {link = "Special"},
 ["@constructor"] = {link = "Special"},
