@@ -137,7 +137,7 @@ highlight CmpItemKindEvent guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=NO
 highlight CmpItemKindField guifg=#73daca guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindFile guifg=#c0caf5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindFolder guifg=#c0caf5 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight CmpItemKindFunction guifg=#7a92f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight CmpItemKindFunction guifg=#8595f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindInterface guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindKeyword guifg=#7dcfff guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindMethod guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -511,7 +511,7 @@ highlight FloatShadowThrough guifg=NONE guibg=black guisp=NONE blend=100 gui=NON
 highlight FoldColumn guifg=#565f89 guibg=#1a1b26 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLineFold FoldColumn
 highlight Folded guifg=#7aa2f7 guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
-highlight Function guifg=#7e89f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight Function guifg=#8590f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Debug Function
 highlight! link luaFunction Function
 highlight! link luaMetaMethod Function
