@@ -31,11 +31,11 @@ highlight BufferLineDiagnosticVisible guifg=#404766 guibg=NONE guisp=NONE blend=
 highlight BufferLineDuplicate guifg=#515a82 guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight BufferLineDuplicateSelected guifg=#515a82 guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight BufferLineDuplicateVisible guifg=#515a82 guibg=NONE guisp=NONE blend=NONE gui=italic
-highlight BufferLineError guifg=#565f89 guibg=NONE guisp=#db4b4b blend=NONE gui=NONE
-highlight BufferLineErrorDiagnostic guifg=#404766 guibg=NONE guisp=#a43838 blend=NONE gui=NONE
-highlight BufferLineErrorDiagnosticSelected guifg=#a43838 guibg=NONE guisp=#a43838 blend=NONE gui=bold,italic
+highlight BufferLineError guifg=#565f89 guibg=NONE guisp=#db4b6b blend=NONE gui=NONE
+highlight BufferLineErrorDiagnostic guifg=#404766 guibg=NONE guisp=#a43868 blend=NONE gui=NONE
+highlight BufferLineErrorDiagnosticSelected guifg=#a43868 guibg=NONE guisp=#a43868 blend=NONE gui=bold,italic
 highlight BufferLineErrorDiagnosticVisible guifg=#404766 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight BufferLineErrorSelected guifg=#db4b4b guibg=NONE guisp=#db4b4b blend=NONE gui=bold,italic
+highlight BufferLineErrorSelected guifg=#db4b6b guibg=NONE guisp=#db4b6b blend=NONE gui=bold,italic
 highlight BufferLineErrorVisible guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BufferLineFill guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BufferLineGroupLabel guifg=NONE guibg=#565f89 guisp=NONE blend=NONE gui=NONE
@@ -61,9 +61,9 @@ highlight BufferLineNumbers guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=N
 highlight BufferLineNumbersSelected guifg=#c0caf5 guibg=NONE guisp=NONE blend=NONE gui=bold,italic
 highlight BufferLineNumbersVisible guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BufferLineOffsetSeparator guifg=#000000 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight BufferLinePick guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=bold,italic
-highlight BufferLinePickSelected guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=bold,italic
-highlight BufferLinePickVisible guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=bold,italic
+highlight BufferLinePick guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=bold,italic
+highlight BufferLinePickSelected guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=bold,italic
+highlight BufferLinePickVisible guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=bold,italic
 highlight BufferLineSeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BufferLineSeparatorSelected guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight BufferLineSeparatorVisible guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -487,7 +487,7 @@ highlight! link DiagnosticSignWarning DiagnosticWarn
 highlight! link LspDiagnosticsWarning DiagnosticWarn
 highlight DiffAdd guifg=NONE guibg=#41a6b5 guisp=NONE blend=NONE gui=NONE
 highlight DiffChange guifg=NONE guibg=#394b70 guisp=NONE blend=NONE gui=NONE
-highlight DiffDelete guifg=NONE guibg=#db4b4b guisp=NONE blend=NONE gui=NONE
+highlight DiffDelete guifg=NONE guibg=#db4b6b guisp=NONE blend=NONE gui=NONE
 highlight DiffText guifg=NONE guibg=#394b70 guisp=NONE blend=NONE gui=NONE
 highlight Directory guifg=#e0af68 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NvimTreeFolderIcon Directory
@@ -670,9 +670,9 @@ highlight NotifyDEBUGBorder guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=N
 highlight NotifyDEBUGIcon guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NotifyDEBUGTitle guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NotifyERRORBody guifg=#c0caf5 guibg=#1a1b26 guisp=NONE blend=NONE gui=NONE
-highlight NotifyERRORBorder guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NotifyERRORIcon guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight NotifyERRORTitle guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight NotifyERRORBorder guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight NotifyERRORIcon guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight NotifyERRORTitle guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NotifyINFOBody guifg=#c0caf5 guibg=#1a1b26 guisp=NONE blend=NONE gui=NONE
 highlight NotifyINFOBorder guifg=#0db9d7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight NotifyINFOIcon guifg=#0db9d7 guibg=NONE guisp=NONE blend=NONE gui=NONE
