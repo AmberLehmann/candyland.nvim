@@ -627,7 +627,7 @@ highlight! link @function.macro Macro
 highlight! link @lsp.type.macro Macro
 highlight! link @macro Macro
 highlight! link @text.environment Macro
-highlight MatchParen guifg=#8fffd0 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight MatchParen guifg=#8fffb0 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight ModeMsg guifg=#a9b1d6 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgArea guifg=#a9b1d6 guibg=NONE guisp=NONE blend=NONE gui=NONE
