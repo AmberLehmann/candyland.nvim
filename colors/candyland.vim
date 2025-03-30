@@ -578,7 +578,7 @@ highlight Ignore guifg=bg guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight IlluminatedWordRead guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight IlluminatedWordText guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight IlluminatedWordWrite guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-highlight IncSearch guifg=#000000 guibg=#ff9e64 guisp=NONE blend=NONE gui=NONE
+highlight IncSearch guifg=#000000 guibg=#eabe64 guisp=NONE blend=NONE gui=NONE
 highlight! link CurSearch IncSearch
 highlight Include guifg=#80daff guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Define Include
@@ -627,7 +627,7 @@ highlight! link @function.macro Macro
 highlight! link @lsp.type.macro Macro
 highlight! link @macro Macro
 highlight! link @text.environment Macro
-highlight MatchParen guifg=#8fffe0 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight MatchParen guifg=#8fffd0 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight ModeMsg guifg=#a9b1d6 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight MoreMsg guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight MsgArea guifg=#a9b1d6 guibg=NONE guisp=NONE blend=NONE gui=NONE
