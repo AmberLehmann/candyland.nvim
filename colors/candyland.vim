@@ -137,7 +137,7 @@ highlight CmpItemKindEvent guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=NO
 highlight CmpItemKindField guifg=#73daca guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindFile guifg=#c0caf5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindFolder guifg=#c0caf5 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight CmpItemKindFunction guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight CmpItemKindFunction guifg=#7a92f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindInterface guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindKeyword guifg=#7dcfff guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemKindMethod guifg=#7aa2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -156,7 +156,7 @@ highlight CmpItemKindVariable guifg=#bb9af7 guibg=NONE guisp=NONE blend=NONE gui
 highlight CmpItemMenu guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight CmpItemMenuDefault guifg=#c0caf5 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight ColorColumn guifg=NONE guibg=#000000 guisp=NONE blend=NONE gui=NONE
-highlight Comment guifg=#565f89 guibg=NONE guisp=NONE blend=NONE gui=italic
+highlight Comment guifg=#665f89 guibg=NONE guisp=NONE blend=NONE gui=italic
 highlight! link DiagnosticUnnecessary Comment
 highlight! link LirEmptyDirText Comment
 highlight! link NvimTreeEmptyFolderName Comment
@@ -442,7 +442,7 @@ highlight DevIconZshprofile guifg=#89e051 guibg=NONE guisp=NONE blend=NONE gui=N
 highlight DevIconZshrc guifg=#89e051 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DevIconsbt guifg=#cc3e44 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight DiagnosticDeprecated guifg=NONE guibg=NONE guisp=red blend=NONE gui=strikethrough
-highlight DiagnosticError guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight DiagnosticError guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link DiagnosticFloatingError DiagnosticError
 highlight! link DiagnosticSignError DiagnosticError
 highlight! link LspDiagnosticsError DiagnosticError
@@ -461,7 +461,7 @@ highlight! link DiagnosticSignOk DiagnosticOk
 highlight! link DiagnosticVirtualTextOk DiagnosticOk
 highlight DiagnosticOther guifg=#9d7cd8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link DiagnosticSignOther DiagnosticOther
-highlight DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=#db4b4b blend=NONE gui=undercurl
+highlight DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=#db4b6b blend=NONE gui=undercurl
 highlight! link LspDiagnosticsUnderlineError DiagnosticUnderlineError
 highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=#1abc9c blend=NONE gui=undercurl
 highlight! link LspDiagnosticsUnderlineHint DiagnosticUnderlineHint
@@ -471,7 +471,7 @@ highlight! link LspDiagnosticsUnderlineInformation DiagnosticUnderlineInfo
 highlight DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=lightgreen blend=NONE gui=underline
 highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=#e0af68 blend=NONE gui=undercurl
 highlight! link LspDiagnosticsUnderlineWarning DiagnosticUnderlineWarn
-highlight DiagnosticVirtualTextError guifg=#db4b4b guibg=#2d202a guisp=NONE blend=NONE gui=NONE
+highlight DiagnosticVirtualTextError guifg=#db4b6b guibg=#2d202a guisp=NONE blend=NONE gui=NONE
 highlight! link LspDiagnosticsVirtualTextError DiagnosticVirtualTextError
 highlight DiagnosticVirtualTextHint guifg=#1abc9c guibg=#1a2b32 guisp=NONE blend=NONE gui=NONE
 highlight! link LspDiagnosticsVirtualTextHint DiagnosticVirtualTextHint
@@ -493,11 +493,11 @@ highlight Directory guifg=#e0af68 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link NvimTreeFolderIcon Directory
 highlight! link NvimTreeSymlinkFolderName Directory
 highlight EndOfBuffer guifg=#1a1b26 guibg=NONE guisp=NONE blend=NONE gui=NONE
-highlight Error guifg=#db4b4b guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight Error guifg=#db4b6b guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight! link NvimInvalid Error
 highlight! link luaError Error
 highlight! link luaParenError Error
-highlight ErrorMsg guifg=#db4b4b guibg=#1a1b26 guisp=NONE blend=NONE gui=bold
+highlight ErrorMsg guifg=#db4b6b guibg=#1a1b26 guisp=NONE blend=NONE gui=bold
 highlight! link NvimInvalidSpacing ErrorMsg
 highlight! link @exception Exception
 highlight EyelinerPrimary guifg=#ff00ff guibg=NONE guisp=NONE blend=NONE gui=bold
@@ -511,7 +511,7 @@ highlight FloatShadowThrough guifg=NONE guibg=black guisp=NONE blend=100 gui=NON
 highlight FoldColumn guifg=#565f89 guibg=#1a1b26 guisp=NONE blend=NONE gui=NONE
 highlight! link CursorLineFold FoldColumn
 highlight Folded guifg=#7aa2f7 guibg=#3b4261 guisp=NONE blend=NONE gui=NONE
-highlight Function guifg=#6ea2f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight Function guifg=#7e89f7 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link Debug Function
 highlight! link luaFunction Function
 highlight! link luaMetaMethod Function
@@ -777,7 +777,7 @@ highlight! link @string.escape SpecialChar
 highlight! link @string.special SpecialChar
 highlight! link @text.note SpecialComment
 highlight SpecialKey guifg=#545c7e guibg=NONE guisp=NONE blend=NONE gui=bold
-highlight SpellBad guifg=NONE guibg=NONE guisp=#db4b4b blend=NONE gui=undercurl
+highlight SpellBad guifg=NONE guibg=NONE guisp=#db4b6b blend=NONE gui=undercurl
 highlight SpellCap guifg=NONE guibg=NONE guisp=#e0af68 blend=NONE gui=undercurl
 highlight SpellLocal guifg=NONE guibg=NONE guisp=#1abc9c blend=NONE gui=undercurl
 highlight SpellRare guifg=NONE guibg=NONE guisp=#0db9d7 blend=NONE gui=undercurl
@@ -850,7 +850,7 @@ highlight! link @type.definition Typedef
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 highlight! link @text.underline Underlined
 highlight! link @text.uri Underlined
-highlight Variable guifg=#f2e1d1 guibg=NONE guisp=NONE blend=NONE gui=NONE
+highlight Variable guifg=#ecdcce guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @variable Variable
 highlight VertSplit guifg=#000000 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight Visual guifg=NONE guibg=#2d59a1 guisp=NONE blend=NONE gui=NONE
@@ -986,20 +986,20 @@ highlight lualine_x_3_normal guifg=#a9b1d6 guibg=#16161e guisp=NONE blend=NONE g
 highlight lualine_x_3_replace guifg=#a9b1d6 guibg=#16161e guisp=NONE blend=NONE gui=bold
 highlight lualine_x_3_terminal guifg=#a9b1d6 guibg=#16161e guisp=NONE blend=NONE gui=bold
 highlight lualine_x_3_visual guifg=#a9b1d6 guibg=#16161e guisp=NONE blend=NONE gui=bold
-highlight lualine_x_diagnostics_error_0_command guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_0_inactive guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_0_insert guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_0_normal guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_0_replace guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_0_terminal guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_0_visual guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_command guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_inactive guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_insert guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_normal guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_replace guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_terminal guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
-highlight lualine_x_diagnostics_error_visual guifg=#db4b4b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_command guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_inactive guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_insert guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_normal guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_replace guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_terminal guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_0_visual guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_command guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_inactive guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_insert guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_normal guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_replace guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_terminal guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
+highlight lualine_x_diagnostics_error_visual guifg=#db4b6b guibg=#16161e guisp=NONE blend=NONE gui=NONE
 highlight lualine_x_diagnostics_hint_0_command guifg=#1abc9c guibg=#16161e guisp=NONE blend=NONE gui=NONE
 highlight lualine_x_diagnostics_hint_0_inactive guifg=#1abc9c guibg=#16161e guisp=NONE blend=NONE gui=NONE
 highlight lualine_x_diagnostics_hint_0_insert guifg=#1abc9c guibg=#16161e guisp=NONE blend=NONE gui=NONE
@@ -1095,7 +1095,7 @@ highlight! link @variable.parameter @parameter
 highlight @property guifg=#85dff8 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight! link @lsp.type.property @property
 highlight! link @variable.member @property
-highlight @punctuation.bracket guifg=#ffbfe8 guibg=NONE guisp=NONE blend=NONE gui=bold
+highlight @punctuation.bracket guifg=#ffbfe7 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @punctuation.special.markdown guifg=#ff9e64 guibg=NONE guisp=NONE blend=NONE gui=bold
 highlight @tag.delimiter guifg=#737aa2 guibg=NONE guisp=NONE blend=NONE gui=NONE
 highlight @text.literal.markdown_inline guifg=#7aa2f7 guibg=#414868 guisp=NONE blend=NONE gui=NONE
