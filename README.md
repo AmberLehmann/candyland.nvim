@@ -7,7 +7,7 @@ This project delivers coders a high-contrast, pastel, pink/blue option.
 
 _*:cherry_blossom: A vibrant pink/blue colorscheme for a saccharine developer experience :cherry_blossom:*_
 
-## ⚡️Features
+## ⚡️ Features
 
 * Neovim 0.8 or newer
 * True color support
