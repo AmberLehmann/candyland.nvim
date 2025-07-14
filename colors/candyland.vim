@@ -1,3 +1,5 @@
+highlight clear
+
 highlight! link NvimSpacing Normal
 highlight! link NvimTreePopup Normal
 highlight Bold guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
