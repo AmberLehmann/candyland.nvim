@@ -33,7 +33,7 @@ use 'AmberLehmann/candyland.nvim'
 Plug 'AmberLehmann/candyland.nvim'
 ```
 
-* [nuwa.nvim](https://source.alyxshang.boo/alyxshang/nuwa.nvim)
+* [nuwa.nvim](https://nuwa.alyxshang.boo/)
 
 ```
 nuwa.installPackage("https://github.com", "AmberLehmann", "candyland.nvim")
